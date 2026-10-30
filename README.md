@@ -1,45 +1,66 @@
-# Ufuq
-# أفق | Ufuq
+# Ufuq | أفق
 
-**A lightweight Arabic home screen for Android TV and Google TV.**
+**A lightweight Arabic home screen for Android TV and Google TV.**  
+**واجهة رئيسية عربية خفيفة لتلفزيونات Android TV وGoogle TV.**
 
-أفق هو تطبيق واجهة رئيسية عربية مصمم لتلفزيونات Android TV وGoogle TV، ويجمع أهم المعلومات والخدمات اليومية في شاشة واحدة، بواجهة من اليمين إلى اليسار (RTL)، مع خيارات متعددة لتخصيص المظهر وطريقة العرض.
+Ufuq brings essential daily information and entertainment features together in one convenient, customizable TV interface.
+
+يجمع تطبيق أفق أهم المعلومات والخدمات اليومية في واجهة تلفزيونية واحدة سهلة الاستخدام وقابلة للتخصيص.
+
+---
+
+# 🇬🇧 English
+
+## Overview
+
+Ufuq is an Arabic home screen designed for Android TV and Google TV. It provides quick access to useful daily information, entertainment, and favorite applications through a TV-friendly interface optimized for remote control navigation.
 
 ## Features
 
-- **Prayer Times:** Prayer schedules, countdowns to the next prayer, Iqama timers, and prayer notifications.
-- **Quran Radio:** Listen to Quran Radio from Cairo or Saudi Arabia, with background playback and a sleep timer.
-- **Weather:** Current weather conditions, humidity, three-day forecasts, and weather alerts.
-- **News:** Arabic news from multiple countries, with customizable categories.
-- **Sports:** Fixtures, results, and league standings across 10 leagues, with favorite-team selection.
-- **Exchange Rates:** Currency exchange rates, including buying and selling prices when available.
-- **Customizable Interface:** Six screen layouts and six color themes.
-- **Screensavers:** Multiple screensaver modes featuring clocks, prayer information, images, and news.
-- **Favorite Apps:** Quick access to favorite applications, with app management and input-source shortcuts.
-- **Personal Backgrounds:** Upload custom images from a USB drive or mobile device.
-- **TV Optimization:** Lightweight design and efficient animations for compatible TV devices.
+- **Prayer Times:** Prayer schedules and countdowns to the next prayer.
+- **Quran Radio:** Access to Quran radio stations.
+- **Weather:** Current conditions and weather forecasts.
+- **News:** Arabic news updates.
+- **Sports:** Match fixtures, results, and league standings.
+- **Exchange Rates:** Currency exchange information.
+- **Customizable Themes:** Multiple visual themes and interface layouts.
+- **Screensavers:** Screensaver options featuring useful information and visual content.
+- **Favorite Apps:** Quick access to frequently used applications.
+- **TV-Friendly Interface:** Arabic right-to-left (RTL) layout designed for remote control navigation.
 
 ## Compatibility
 
-- Android TV and Google TV.
-- Android 8.0 and later, according to the application guide.
-- Designed for TV screens and remote-control navigation.
+Designed for compatible Android TV and Google TV devices. Actual feature availability may depend on the device, Android version, network connection, and supported data sources.
 
-## App Information
+## Project
 
-- **Name:** Ufuq (أفق)
-- **Version:** 2.0
-- **Package Size:** Under 2 MB, according to the application guide.
-- **Price:** Free.
-- **Ads:** Ad-free.
-- **Account Required:** No.
+This repository contains the Ufuq application source code and related project files.
 
-## Installation
+---
 
-The application guide provides installation instructions using the Downloader app and code `9005102`.
+# 🇪🇬 العربية
 
-For the latest installation instructions and availability, refer to the official distribution source.
+## نبذة عن التطبيق
 
-## Project Status
+أفق هو تطبيق واجهة رئيسية عربية مصمم لتلفزيونات Android TV وGoogle TV، يتيح الوصول السريع إلى المعلومات اليومية والخدمات الترفيهية والتطبيقات المفضلة من خلال واجهة مناسبة لشاشات التلفزيون والتحكم باستخدام الريموت.
 
-This repository documents the Ufuq application. Implementation details, build instructions, and contribution guidelines can be added based on the actual project structure.
+## المميزات
+
+- **مواقيت الصلاة:** عرض مواعيد الصلاة والعد التنازلي للصلاة القادمة.
+- **إذاعة القرآن الكريم:** الوصول إلى إذاعات القرآن الكريم.
+- **الطقس:** عرض حالة الطقس والتوقعات الجوية.
+- **الأخبار:** متابعة الأخبار باللغة العربية.
+- **الرياضة:** عرض المباريات والنتائج وترتيب الدوريات.
+- **أسعار الصرف:** متابعة معلومات أسعار صرف العملات.
+- **الثيمات القابلة للتخصيص:** خيارات متنوعة لمظهر الواجهة وتخطيطها.
+- **شاشات التوقف:** خيارات متنوعة تعرض معلومات مفيدة ومحتوى مرئي.
+- **التطبيقات المفضلة:** وصول سريع إلى التطبيقات المستخدمة باستمرار.
+- **واجهة مناسبة للتلفزيون:** تصميم عربي من اليمين إلى اليسار (RTL)، مع دعم التنقل باستخدام الريموت.
+
+## التوافق
+
+صُمم التطبيق للأجهزة المتوافقة مع Android TV وGoogle TV. وقد يختلف توفر بعض المميزات حسب الجهاز وإصدار Android واتصال الإنترنت ومصادر البيانات المدعومة.
+
+## المشروع
+
+يحتوي هذا المستودع على الكود المصدري لتطبيق أفق والملفات المرتبطة بالمشروع.
