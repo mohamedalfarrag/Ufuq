@@ -24,6 +24,10 @@ https://github.com/mohamedalfarrag/Ufuq/releases/latest/download/Ufuq.apk
 
 Updates appear inside the app automatically, and the same code always downloads the latest version.
 
+## User Guide
+
+An illustrated 6-page guide (in Arabic) to all of Ufuq's themes and features: [**Ufuq-Guide.pdf**](docs/Ufuq-Guide.pdf)
+
 ## Overview
 
 Ufuq is an Arabic home screen designed for Android TV and Google TV. It provides quick access to useful daily information, entertainment, and favorite applications through a TV-friendly interface optimized for remote control navigation.
@@ -69,6 +73,10 @@ This repository hosts the latest versions of Ufuq and the release notes for each
 https://github.com/mohamedalfarrag/Ufuq/releases/latest/download/Ufuq.apk
 
 التحديثات تظهر داخل التطبيق تلقائياً، ونفس الكود ينزّل آخر نسخة دائماً.
+
+## دليل التطبيق
+
+دليل مصوّر من 6 صفحات فيه طريقة التثبيت وكل الثيمات والمميزات: [**Ufuq-Guide.pdf**](docs/Ufuq-Guide.pdf)
 
 ## نبذة عن التطبيق
 
