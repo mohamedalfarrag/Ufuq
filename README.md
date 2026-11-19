@@ -34,7 +34,8 @@ Ufuq is an Arabic home screen designed for Android TV and Google TV. It provides
 
 ## Features
 
-- **Prayer Times:** Prayer schedules and countdowns to the next prayer.
+- **Prayer Times:** Prayer schedules, countdowns to the next prayer, and the full adhan or takbeer at prayer time.
+- **The Holy Quran:** The Madinah Mushaf with recitations synced to the page, the color-coded tajweed Mushaf, and tafsir of each verse.
 - **Quran Radio:** Access to Quran radio stations.
 - **Weather:** Current conditions and weather forecasts.
 - **News:** Arabic news updates.
@@ -44,6 +45,14 @@ Ufuq is an Arabic home screen designed for Android TV and Google TV. It provides
 - **Screensavers:** Screensaver options featuring useful information and visual content.
 - **Favorite Apps:** Quick access to frequently used applications.
 - **TV-Friendly Interface:** Arabic right-to-left (RTL) layout designed for remote control navigation.
+
+## Contact
+
+Follow updates and send your suggestions on the Ufuq Telegram channel: **[t.me/ufuqtv](https://t.me/ufuqtv)**
+
+## Credits
+
+The color-coded tajweed Mushaf and the tafsir are provided with permission from the Electronic Mushaf Project at King Saud University (quran.ksu.edu.sa). Adhan and takbeer recited by Mostafa Gaber. Full credits are in the app under About Ufuq.
 
 ## Compatibility
 
@@ -84,7 +93,8 @@ https://github.com/mohamedalfarrag/Ufuq/releases/latest/download/Ufuq.apk
 
 ## المميزات
 
-- **مواقيت الصلاة:** عرض مواعيد الصلاة والعد التنازلي للصلاة القادمة.
+- **مواقيت الصلاة:** عرض مواعيد الصلاة والعد التنازلي للصلاة القادمة، والأذان كاملاً أو التكبيرات وقت الصلاة.
+- **القرآن الكريم:** مصحف المدينة مع تلاوات متزامنة مع الصفحة، ومصحف التجويد الملوّن، وتفسير كل آية.
 - **إذاعة القرآن الكريم:** الوصول إلى إذاعات القرآن الكريم.
 - **الطقس:** عرض حالة الطقس والتوقعات الجوية.
 - **الأخبار:** متابعة الأخبار باللغة العربية.
@@ -94,6 +104,14 @@ https://github.com/mohamedalfarrag/Ufuq/releases/latest/download/Ufuq.apk
 - **شاشات التوقف:** خيارات متنوعة تعرض معلومات مفيدة ومحتوى مرئي.
 - **التطبيقات المفضلة:** وصول سريع إلى التطبيقات المستخدمة باستمرار.
 - **واجهة مناسبة للتلفزيون:** تصميم عربي من اليمين إلى اليسار (RTL)، مع دعم التنقل باستخدام الريموت.
+
+## تواصل معنا
+
+تابع التحديثات وأرسل اقتراحاتك على قناة أفق في تليجرام: **[t.me/ufuqtv](https://t.me/ufuqtv)**
+
+## الحقوق
+
+مصحف التجويد الملوّن والتفسير بإذن من مشروع المصحف الإلكتروني بجامعة الملك سعود (quran.ksu.edu.sa). الأذان والتكبيرات بصوت مصطفى جابر. الحقوق كاملة داخل التطبيق في «عن أفق».
 
 ## التوافق
 
