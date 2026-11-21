@@ -44,6 +44,9 @@ Ufuq is an Arabic home screen designed for Android TV and Google TV. It provides
 - **Customizable Themes:** Multiple visual themes and interface layouts.
 - **Screensavers:** Screensaver options featuring useful information and visual content.
 - **Favorite Apps:** Quick access to frequently used applications.
+- **All Your Apps:** Every installed app, including apps installed from outside the Play Store, under "Other apps".
+- **Home Button:** The remote's Home button can open Ufuq directly, even on Google TV, with no extra apps.
+- **Mouse Support:** Works with a mouse or air mouse: click to open, long-press for options, right-click to go back.
 - **TV-Friendly Interface:** Arabic right-to-left (RTL) layout designed for remote control navigation.
 
 ## Contact
@@ -60,7 +63,7 @@ Designed for compatible Android TV and Google TV devices (Android 8 or newer). A
 
 ## Privacy
 
-Ufuq is free, has no ads, and requires no account. It does not collect personal data or send anything to the developer. The approximate location of your city is used with public weather services to show the weather; news, matches and exchange rates are loaded from public sources on the internet.
+Ufuq is free, has no ads, and requires no account. It does not collect personal data or send anything to the developer. The approximate location of your city is used with public weather services to show the weather; news, matches and exchange rates are loaded from public sources on the internet. The optional "Home button opens Ufuq" feature uses an Android accessibility service only to notice when the system home screen appears; it does not read screen content or what you type.
 
 ## Releases
 
@@ -103,6 +106,9 @@ https://github.com/mohamedalfarrag/Ufuq/releases/latest/download/Ufuq.apk
 - **الثيمات القابلة للتخصيص:** خيارات متنوعة لمظهر الواجهة وتخطيطها.
 - **شاشات التوقف:** خيارات متنوعة تعرض معلومات مفيدة ومحتوى مرئي.
 - **التطبيقات المفضلة:** وصول سريع إلى التطبيقات المستخدمة باستمرار.
+- **كل تطبيقاتك:** كل التطبيقات المثبّتة، ومنها المثبّتة من خارج متجر جوجل تحت «تطبيقات أخرى».
+- **زر Home:** زر Home في الريموت يمكن أن يفتح أفق مباشرة، حتى في Google TV، بدون أي تطبيق إضافي.
+- **دعم الماوس:** يعمل مع الماوس والـ Air Mouse: الضغطة تفتح، والضغطة المطوّلة للخيارات، والضغطة اليمنى رجوع.
 - **واجهة مناسبة للتلفزيون:** تصميم عربي من اليمين إلى اليسار (RTL)، مع دعم التنقل باستخدام الريموت.
 
 ## تواصل معنا
@@ -119,7 +125,7 @@ https://github.com/mohamedalfarrag/Ufuq/releases/latest/download/Ufuq.apk
 
 ## الخصوصية
 
-أفق مجاني وبدون إعلانات ولا يحتاج حساباً. لا يجمع بيانات شخصية ولا يرسل أي شيء للمطوّر. يُستخدم الموقع التقريبي للمدينة مع خدمات الطقس العامة لعرض الطقس، والأخبار والمباريات وأسعار الصرف تُجلب من مصادر عامة على الإنترنت.
+أفق مجاني وبدون إعلانات ولا يحتاج حساباً. لا يجمع بيانات شخصية ولا يرسل أي شيء للمطوّر. يُستخدم الموقع التقريبي للمدينة مع خدمات الطقس العامة لعرض الطقس، والأخبار والمباريات وأسعار الصرف تُجلب من مصادر عامة على الإنترنت. خاصية «زر Home يفتح أفق» الاختيارية تستخدم خدمة إمكانية الوصول في أندرويد فقط لمعرفة ظهور الشاشة الرئيسية للنظام، ولا تقرأ محتوى الشاشة ولا ما تكتبه.
 
 ## الإصدارات
 
