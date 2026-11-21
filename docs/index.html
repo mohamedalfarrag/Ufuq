@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>أفق | شاشة رئيسية عربية لأجهزة Android TV و Google TV</title>
+<meta name="description" content="أفق شاشة رئيسية عربية مجانية بالكامل لأجهزة Android TV و Google TV: مواقيت الصلاة والأذان، والقرآن الكريم، والإذاعة، والأخبار والمباريات والطقس. بلا إعلانات ولا جمع للبيانات. رمز Downloader ‏1954475">
+<meta property="og:type" content="website">
+<meta property="og:title" content="أفق | شاشة رئيسية عربية لتلفازك">
+<meta property="og:description" content="مجانية بالكامل، بلا إعلانات، بلا اشتراك، ولا تجمع أي بيانات. رمز Downloader ‏1954475">
+<meta property="og:image" content="https://mohamedalfarrag.github.io/Ufuq/img/islamic.jpg">
+<meta property="og:url" content="https://mohamedalfarrag.github.io/Ufuq/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='120 150 400 340'%3E%3Cpath d='M165 390a155 155 0 0 1 310 0' fill='none' stroke='%23e9c79c' stroke-width='22'/%3E%3Cpath d='M237 390a83 83 0 0 1 166 0z' fill='%23f6a35f'/%3E%3Crect x='138' y='380' width='364' height='20' rx='10' fill='%23f6d2a4'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Outfit:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#120c20; --bg2:#1c1430; --card:#ffffff0d; --line:#ffffff1f;
+  --text:#fbeedd; --muted:#e9d9c8b3; --gold:#ffcf8a; --sun:#f19a5a;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Tajawal,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%;height:auto}
+.split>*,.grid>*,.steps>*,.amb>*{min-width:0}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+.latin{font-family:Outfit,sans-serif;unicode-bidi:isolate;direction:ltr;display:inline-block}
+h1,h2{text-wrap:balance}
+
+/* nav */
+nav{position:sticky;top:0;z-index:20;background:#120c20d9;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:24px}
+.brand svg{width:38px;height:38px}
+.links{display:flex;gap:26px;font-weight:500;color:var(--muted)}
+.links a:hover{color:var(--gold)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-weight:700;border-radius:14px;padding:14px 26px;transition:.2s;font-size:17px}
+.btn-gold{background:linear-gradient(135deg,var(--gold),var(--sun));color:#2a1730}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 10px 30px #f19a5a40}
+.btn-ghost{border:1.5px solid var(--line);color:var(--text)}
+.btn-ghost:hover{border-color:var(--gold);color:var(--gold)}
+nav .btn{padding:8px 16px;font-size:15px}
+
+/* hero */
+.hero{position:relative;padding:76px 0 0;text-align:center;overflow:hidden;
+  background:radial-gradient(ellipse 70% 55% at 50% 100%,#6a3a62 0%,#2e1c46 45%,transparent 75%)}
+.hero::before{content:"";position:absolute;left:50%;top:-180px;width:900px;height:900px;transform:translateX(-50%);border-radius:50%;
+  background:radial-gradient(circle,#ffcf8a14 0%,transparent 60%);pointer-events:none}
+.pill{display:inline-flex;align-items:center;gap:10px;border:1px solid #ffcf8a44;background:#ffcf8a12;border-radius:999px;padding:6px 16px 6px 8px;color:var(--gold);font-weight:700;font-size:15px}
+.pill em{font-style:normal;background:var(--gold);color:#2a1730;border-radius:999px;padding:1px 10px;font-size:13px}
+.logo{display:inline-flex;align-items:center;gap:18px}
+.logo svg{width:clamp(72px,9vw,110px);height:auto}
+.logo div{display:flex;flex-direction:column;align-items:center;line-height:1}
+.logo b{font-size:clamp(56px,7.5vw,96px);font-weight:800;line-height:1.05}
+.logo .latin{font-weight:600;font-size:clamp(18px,2vw,24px);letter-spacing:5px;color:var(--gold);margin-top:2px}
+.hero h1{font-size:clamp(26px,3.6vw,46px);font-weight:800;line-height:1.25;margin:26px auto 0}
+@media (min-width:700px){.hero h1{white-space:nowrap}}
+@media (min-width:1000px){.hero .wrap p.lead{white-space:nowrap;max-width:none}}
+.hero h1 span{background:linear-gradient(135deg,var(--gold),var(--sun));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.lead{font-size:clamp(17px,1.6vw,19px);color:var(--muted);margin:20px auto 0;max-width:720px;text-wrap:pretty}
+.checks{display:flex;justify-content:center;flex-wrap:wrap;gap:8px 24px;margin:26px auto 0;font-weight:500;color:var(--text)}
+.checks span::before{content:"✓";color:var(--gold);font-weight:800;margin-inline-end:7px}
+.cta{display:flex;justify-content:center;align-items:stretch;flex-wrap:wrap;gap:14px;margin-top:34px}
+.codebox{display:flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:6px 20px}
+.codebox small{color:var(--muted);font-size:14px;line-height:1.3;text-align:start}
+.codebox b{font-family:Outfit;font-size:30px;letter-spacing:4px;color:var(--gold);line-height:1.2}
+.tvwrap{max-width:1000px;margin:56px auto 0;padding:0 20px;position:relative}
+.tv{border-radius:20px 20px 0 0;padding:12px 12px 0;background:linear-gradient(#2c2340,#1a1330);box-shadow:0 -10px 80px #f19a5a26,0 0 0 1px var(--line)}
+.tv img{border-radius:10px 10px 0 0;width:100%}
+
+/* sections */
+section{padding:84px 0}
+.alt{background:var(--bg2)}
+.head{text-align:center;max-width:680px;margin:0 auto 46px}
+.head h2{font-size:clamp(28px,3.6vw,42px);font-weight:800;line-height:1.3}
+.head p{color:var(--muted);font-size:18px;margin-top:10px}
+.eyebrow{color:var(--gold);font-weight:700;font-size:15px;letter-spacing:1px}
+
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.f{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px;transition:.2s}
+.f:hover{border-color:#ffcf8a66;transform:translateY(-3px)}
+.f i{font-style:normal;display:flex;width:50px;height:50px;align-items:center;justify-content:center;border-radius:14px;background:#ffcf8a1f;border:1px solid #ffcf8a44;font-size:24px;margin-bottom:14px}
+.f h3{font-size:21px;font-weight:700}
+.f p{color:var(--muted);font-size:16px;margin-top:4px}
+
+.split{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.split h2{font-size:clamp(28px,3.2vw,38px);font-weight:800;line-height:1.3;margin:6px 0 14px}
+.split ul{list-style:none;color:var(--muted);font-size:17px}
+.split li{padding:7px 0;padding-inline-start:28px;position:relative}
+.split li::before{content:"✦";position:absolute;inset-inline-start:0;color:var(--gold)}
+.stack{position:relative;padding-bottom:16%}
+.stack img{border-radius:14px;box-shadow:0 20px 50px #0009;border:1px solid var(--line)}
+.stack img+img{position:absolute;width:62%;inset-inline-start:-4%;bottom:0}
+
+.tabs{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+.tabs button{font:inherit;font-weight:700;font-size:16px;background:var(--card);color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:8px 18px;cursor:pointer;transition:.2s}
+.tabs button.on,.tabs button:hover{background:#ffcf8a1f;color:var(--gold);border-color:#ffcf8a77}
+.stage{max-width:980px;margin:0 auto}
+.stage img{border-radius:16px;box-shadow:0 30px 70px #000a;border:1px solid var(--line);width:100%;aspect-ratio:16/9;object-fit:cover}
+.stage p{text-align:center;color:var(--muted);margin-top:14px;font-size:17px}
+
+.amb{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.amb figure img{border-radius:14px;border:1px solid var(--line)}
+.amb figcaption{text-align:center;color:var(--muted);margin-top:10px;font-size:16px}
+
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;counter-reset:s}
+.step{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px}
+.step::before{counter-increment:s;content:counter(s);font-family:Outfit;font-weight:600;font-size:22px;display:flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--sun));color:#2a1730;margin-bottom:14px}
+.step h3{font-size:20px}
+.step p{color:var(--muted);font-size:16px}
+.step b.latin{color:var(--gold);font-size:22px;letter-spacing:3px}
+.center{text-align:center;margin-top:30px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+
+.privacy{max-width:820px;margin:0 auto;text-align:center}
+.privacy .row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:30px}
+.privacy .row div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 10px}
+.privacy .row i{font-style:normal;font-size:28px}
+.privacy .row b{display:block;margin-top:6px}
+
+.faq{max-width:820px;margin:0 auto}
+details{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 22px;margin-bottom:12px}
+summary{cursor:pointer;font-weight:700;font-size:18px;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";float:left;color:var(--gold);font-size:22px;line-height:1}
+details[open] summary::after{content:"−"}
+details p{color:var(--muted);margin-top:8px}
+
+footer{border-top:1px solid var(--line);padding:40px 0;color:var(--muted);font-size:15px}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center}
+footer .soc{display:flex;flex-wrap:wrap;gap:10px}
+footer .soc a{border:1px solid var(--line);border-radius:12px;padding:8px 14px;font-weight:700;color:var(--text)}
+footer .soc a:hover{border-color:var(--gold);color:var(--gold)}
+footer small{display:block;margin-top:6px;opacity:.8}
+
+@media (max-width:900px){
+  .links{display:none}
+  .split{grid-template-columns:1fr}
+  .grid,.steps,.amb{grid-template-columns:1fr 1fr}
+  .privacy .row{grid-template-columns:1fr 1fr}
+  .split .media{order:-1}
+}
+@media (max-width:600px){
+  .grid,.steps,.amb{grid-template-columns:1fr}
+  section{padding:60px 0}
+  .hero{padding-top:44px}
+  .cta .btn,.codebox{width:100%;justify-content:center}
+  .tvwrap{padding:0 12px;margin-top:40px}
+}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a class="brand" href="#">
+    <svg viewBox="120 150 400 340"><defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe0a0"/><stop offset="1" stop-color="#f19a5a"/></linearGradient></defs><path d="M430 160 a44 44 0 1 0 2 82 a38 38 0 0 1 -2 -82z" fill="#fff0cc"/><path d="M165 390 a155 155 0 0 1 310 0" fill="none" stroke="#e9c79c" stroke-opacity=".4" stroke-width="14"/><path d="M200 390 a120 120 0 0 1 240 0" fill="none" stroke="#e9c79c" stroke-opacity=".65" stroke-width="14"/><path d="M237 390 a83 83 0 0 1 166 0z" fill="url(#s)"/><rect x="138" y="383" width="364" height="14" rx="7" fill="#f6d2a4"/><rect x="257" y="420" width="126" height="12" rx="6" fill="#f6d2a4" fill-opacity=".55"/><rect x="290" y="452" width="60" height="12" rx="6" fill="#f6d2a4" fill-opacity=".3"/></svg>
+    أفق
+  </a>
+  <div class="links">
+    <a href="#features">المميزات</a>
+    <a href="#themes">الثيمات</a>
+    <a href="#quran">القرآن</a>
+    <a href="#install">التحميل</a>
+    <a href="#faq">الأسئلة</a>
+  </div>
+  <a class="btn btn-gold" href="#install">حمّل أفق</a>
+</div></nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="logo">
+      <svg viewBox="120 150 400 340"><defs><linearGradient id="s2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe0a0"/><stop offset="1" stop-color="#f19a5a"/></linearGradient></defs><path d="M430 160 a44 44 0 1 0 2 82 a38 38 0 0 1 -2 -82z" fill="#fff0cc"/><path d="M165 390 a155 155 0 0 1 310 0" fill="none" stroke="#e9c79c" stroke-opacity=".4" stroke-width="14"/><path d="M200 390 a120 120 0 0 1 240 0" fill="none" stroke="#e9c79c" stroke-opacity=".65" stroke-width="14"/><path d="M237 390 a83 83 0 0 1 166 0z" fill="url(#s2)"/><rect x="138" y="383" width="364" height="14" rx="7" fill="#f6d2a4"/><rect x="257" y="420" width="126" height="12" rx="6" fill="#f6d2a4" fill-opacity=".55"/><rect x="290" y="452" width="60" height="12" rx="6" fill="#f6d2a4" fill-opacity=".3"/></svg>
+      <div><b>أفق</b><span class="latin">Ufuq TV</span></div>
+    </div>
+    <h1>شاشة رئيسية <span>عربية</span> لتلفازك</h1>
+    <p class="lead">مواقيت الصلاة والأذان، والقرآن الكريم، والطقس والأخبار والمباريات، وجميع تطبيقاتك في واجهة عربية هادئة واحدة.</p>
+    <div class="checks"><span>مجاني بالكامل</span><span>بلا إعلانات</span><span>بلا اشتراك</span><span>لا يجمع أي بيانات</span></div>
+    <div class="cta">
+      <a class="btn btn-gold" href="#install">طريقة التثبيت</a>
+      <div class="codebox"><small>رمز<br><span class="latin">Downloader</span></small><b>1954475</b></div>
+    </div>
+  </div>
+  <div class="tvwrap"><div class="tv"><img src="img/islamic.jpg" alt="الشاشة الرئيسية لأفق بالثيم الإسلامي ومواقيت الصلاة" width="1600" height="900"></div></div>
+</header>
+
+<section id="features"><div class="wrap">
+  <div class="head"><div class="eyebrow">المميزات</div><h2>كل ما تحتاجه يومياً، بمجرد تشغيل التلفاز</h2></div>
+  <div class="grid">
+    <div class="f"><i>🕌</i><h3>مواقيت الصلاة والأذان</h3><p>حسب مدينتك، مع العد التنازلي للصلاة القادمة، والأذان كاملاً أو التكبير عند دخول الوقت، وعداد الإقامة.</p></div>
+    <div class="f"><i>📖</i><h3>القرآن الكريم</h3><p>مصحف المدينة مع تلاوة متزامنة مع الصفحة، والمصحف الملوّن بأحكام التجويد، وتفسير كل آية.</p></div>
+    <div class="f"><i>📻</i><h3>إذاعة القرآن الكريم</h3><p>من القاهرة ومن السعودية، بضغطة واحدة من الشاشة الرئيسية.</p></div>
+    <div class="f"><i>⛅</i><h3>الطقس</h3><p>درجة الحرارة والرطوبة والغبار الآن، وتوقعات الأيام القادمة.</p></div>
+    <div class="f"><i>⚽</i><h3>الأخبار والمباريات</h3><p>أخبار عربية، ومواعيد المباريات ونتائجها وترتيب الدوري، ومباريات فريقك المفضل.</p></div>
+    <div class="f"><i>💱</i><h3>أسعار الصرف والذهب</h3><p>في شريط هادئ أسفل الشاشة، دون الحاجة إلى فتح أي تطبيق.</p></div>
+    <div class="f"><i>🎨</i><h3>ثيمات وصور خلفية</h3><p>إسلامي ورياضي وكلاسيكي وصور طبيعية، بألوان فاتحة وداكنة، ويمكنك إضافة صورتك الخاصة.</p></div>
+    <div class="f"><i>🏠</i><h3>زر <span class="latin">Home</span> يفتح أفق</h3><p>حتى على <span class="latin">Google TV</span>، دون أي تطبيق إضافي.</p></div>
+    <div class="f"><i>🖱️</i><h3>جهاز التحكم والفأرة</h3><p>مصمم لجهاز التحكم عن بُعد، ويعمل أيضاً بالفأرة والفأرة الهوائية.</p></div>
+  </div>
+</div></section>
+
+<section id="themes" class="alt"><div class="wrap">
+  <div class="head"><div class="eyebrow">الثيمات</div><h2>مظهر يناسب منزلك</h2><p>غيّر الثيم والألوان بضغطة واحدة من الشاشة الرئيسية.</p></div>
+  <div class="tabs" id="tabs">
+    <button class="on" data-img="islamic" data-cap="الإسلامي: الساعة الكبيرة ومواقيت الصلاة في المنتصف">إسلامي</button>
+    <button data-img="sports" data-cap="الرياضي: ترتيب الدوري والمباراة القادمة والأخبار">رياضي</button>
+    <button data-img="photo" data-cap="صورة خلفية: المنتصف خالٍ والمعلومات في الأطراف">صورة</button>
+    <button data-img="classic" data-cap="الكلاسيكي: بطاقات المواقيت والصرف والمباريات والأخبار">كلاسيكي</button>
+    <button data-img="finance" data-cap="الاقتصادي: البورصة والذهب والأخبار الاقتصادية">اقتصادي</button>
+    <button data-img="light" data-cap="ألوان فاتحة للثيم نفسه">فاتح</button>
+  </div>
+  <div class="stage"><img id="stageImg" src="img/islamic.jpg" alt="ثيم أفق" width="1600" height="900"><p id="stageCap">الإسلامي: الساعة الكبيرة ومواقيت الصلاة في المنتصف</p></div>
+</div></section>
+
+<section id="quran"><div class="wrap split">
+  <div>
+    <div class="eyebrow">القرآن الكريم</div>
+    <h2>المصحف على شاشتك الكبيرة</h2>
+    <ul>
+      <li>مصحف المدينة بخط واضح، بصفحتين متجاورتين</li>
+      <li>تلاوة متزامنة مع الصفحة، مع اختيار القارئ</li>
+      <li>المصحف الملوّن بأحكام التجويد</li>
+      <li>تفسير كل آية بضغطة واحدة</li>
+      <li>المصحف الملوّن والتفسير بإذن من مشروع المصحف الإلكتروني بجامعة الملك سعود</li>
+    </ul>
+  </div>
+  <div class="media stack"><img src="img/mushaf.jpg" alt="المصحف الملوّن في أفق" width="1600" height="900" loading="lazy"><img src="img/tafsir.jpg" alt="تفسير آية في أفق" width="1600" height="900" loading="lazy"></div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <div class="head"><div class="eyebrow">شاشة التوقف</div><h2>ساعة ومواقيت حين لا تستخدم التلفاز</h2><p>بعد دقائق من عدم الاستخدام، يعرض أفق شاشة هادئة بالوقت والصلاة القادمة والطقس، وفي رمضان موعدَي الإمساك والإفطار.</p></div>
+  <div class="amb">
+    <figure><img src="img/amb-islamic.jpg" alt="شاشة المواقيت بالثيم الإسلامي" width="1600" height="900" loading="lazy"><figcaption>المواقيت والأخبار</figcaption></figure>
+    <figure><img src="img/amb-info.jpg" alt="شاشة المواقيت الليلية" width="1600" height="900" loading="lazy"><figcaption>الصلاة القادمة والطقس</figcaption></figure>
+    <figure><img src="img/amb-ramadan.jpg" alt="شاشة المواقيت في رمضان" width="1600" height="900" loading="lazy"><figcaption>في رمضان: الإفطار والإمساك</figcaption></figure>
+  </div>
+</div></section>
+
+<section id="install"><div class="wrap">
+  <div class="head"><div class="eyebrow">التحميل</div><h2>ثبّته في دقيقتين</h2><p>لأجهزة <span class="latin">Android TV</span> و <span class="latin">Google TV</span> بنظام أندرويد 8 أو أحدث.</p></div>
+  <div class="steps">
+    <div class="step"><h3>حمّل تطبيق <span class="latin">Downloader</span></h3><p>من متجر <span class="latin">Google Play</span> على التلفاز.</p></div>
+    <div class="step"><h3>أدخل الرمز</h3><p><b class="latin">1954475</b><br>ثم اضغط <span class="latin">Go</span>.</p></div>
+    <div class="step"><h3>ثبّت أفق</h3><p>اسمح لتطبيق <span class="latin">Downloader</span> بالتثبيت في المرة الأولى فقط، وستصلك التحديثات من داخل أفق.</p></div>
+  </div>
+  <div class="center">
+    <a class="btn btn-gold" href="https://github.com/mohamedalfarrag/Ufuq/releases/latest/download/Ufuq.apk">تحميل مباشر <span class="latin">APK</span></a>
+    <a class="btn btn-ghost" href="Ufuq-Guide.pdf">دليل الاستخدام <span class="latin">PDF</span></a>
+  </div>
+</div></section>
+
+<section class="alt"><div class="wrap privacy">
+  <div class="eyebrow">الخصوصية</div>
+  <div class="head" style="margin-bottom:0"><h2>خالصاً لوجه الله</h2><p>لا يطلب أفق أي حساب، ولا يرسل أي شيء إلى المطوّر. تُستخدم مدينتك فقط لحساب المواقيت وعرض الطقس.</p></div>
+  <div class="row">
+    <div><i>🆓</i><b>مجاني</b></div>
+    <div><i>🚫</i><b>بلا إعلانات</b></div>
+    <div><i>👤</i><b>بلا حساب</b></div>
+    <div><i>🔒</i><b>بلا جمع للبيانات</b></div>
+  </div>
+</div></section>
+
+<section id="faq"><div class="wrap">
+  <div class="head"><div class="eyebrow">الأسئلة</div><h2>أسئلة شائعة</h2></div>
+  <div class="faq">
+    <details><summary>هل أفق مجاني حقاً؟</summary><p>نعم، مجاني بالكامل، بلا إعلانات ولا اشتراكات ولا مزايا مدفوعة.</p></details>
+    <details><summary>هل يحذف الواجهة الأصلية للتلفاز؟</summary><p>لا. أفق تطبيق عادي، ويمكنك العودة إلى الواجهة الأصلية للتلفاز في أي وقت من الإعدادات.</p></details>
+    <details><summary>كيف أحدّث أفق؟</summary><p>يبحث أفق عن التحديثات تلقائياً ويعرض عليك التحديث الجديد. ويمكنك أيضاً التحديث في أي وقت من <span class="latin">Downloader</span> بالرمز نفسه، مع بقاء إعداداتك كما هي.</p></details>
+    <details><summary>هل يعمل في أي دولة؟</summary><p>نعم. اختر مدينتك أو اتركه يحددها تلقائياً، وتُضبط طريقة حساب المواقيت حسب بلدك.</p></details>
+    <details><summary>لديّ مشكلة أو اقتراح، كيف أتواصل؟</summary><p>راسلنا عبر قناة تليجرام <a href="https://t.me/ufuqtv" style="color:var(--gold)">t.me/ufuqtv</a>.</p></details>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <div>
+    <b style="color:var(--text);font-size:18px">أفق <span class="latin">Ufuq</span></b>
+    <small>المصحف الملوّن والتفسير بإذن من مشروع المصحف الإلكتروني بجامعة الملك سعود. الأذان بصوت مصطفى جابر.</small>
+  </div>
+  <div class="soc">
+    <a href="https://t.me/ufuqtv">تليجرام</a>
+    <a href="https://facebook.com/ufuqtv">فيسبوك</a>
+    <a href="https://github.com/mohamedalfarrag/Ufuq"><span class="latin">GitHub</span></a>
+  </div>
+</div></footer>
+
+<script>
+document.querySelectorAll('#tabs button').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('#tabs button').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on');
+  document.getElementById('stageImg').src='img/'+b.dataset.img+'.jpg';
+  document.getElementById('stageCap').textContent=b.dataset.cap;
+}));
+</script>
+</body>
+</html>
